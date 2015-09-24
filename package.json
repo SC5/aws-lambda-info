@@ -1,0 +1,28 @@
+{
+  "name": "aws-lambda-info",
+  "version": "0.1.0",
+  "description": "Retrieve information of running lambda function",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha tests/*.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/SC5/aws-lambda-info.git"
+  },
+  "keywords": [
+    "AWS",
+    "Lambda",
+    "Information"
+  ],
+  "author": "Mikael Puittinen/SC5 Online Oy",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/SC5/aws-lambda-info/issues"
+  },
+  "homepage": "https://github.com/SC5/aws-lambda-info",
+  "devDependencies": {
+    "expect": "^1.10.0",
+    "mocha": "^2.3.3"
+  }
+}
